@@ -2,7 +2,46 @@
 <html lang="en">
 
 <head>
+    <style>
+        /* 기본 스타일 */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
 
+        /* 헤더 스타일 */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header .name {
+            margin-top: 20px;
+            font-size: 2em;
+        }
+
+        header .skills {
+            display: block;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+
+        /* 프로필 이미지 스타일 */
+        .profile-img {
+            width: 250px; /* 원하는 크기로 조절하세요 */
+            height: 250px; /* 원하는 크기로 조절하세요 */
+            border-radius: 50%; /* 원형으로 만듭니다 */
+            object-fit: cover; /* 이미지가 잘리지 않고 비율 유지 */
+            border: 5px solid #fff; /* 테두리 추가 */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+        }
+        
+    </style>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -68,15 +107,16 @@
     </nav>
 
     <!-- Header -->
+    <!-- 헤더 섹션 -->
     <header>
         <div class="container" id="maincontent" tabindex="-1">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
+                    <img class="profile-img" src="img/kim1.jpg" alt="Kim Tae Yeon's Profile Picture">
                     <div class="intro-text">
-                        <h1 class="name">Start Bootstrap</h1>
+                        <h1 class="name">20190594 김태연</h1>
                         <hr class="star-light">
-                        <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
+                        <span class="skills">4학년 - 곧졸업 - 큰일났다</span>
                     </div>
                 </div>
             </div>
@@ -95,61 +135,31 @@
             <div class="row">
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
                         <img src="img/portfolio/cabin.png" class="img-responsive" alt="Cabin">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
                         <img src="img/portfolio/cake.png" class="img-responsive" alt="Slice of cake">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
                         <img src="img/portfolio/circus.png" class="img-responsive" alt="Circus tent">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
                         <img src="img/portfolio/game.png" class="img-responsive" alt="Game controller">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
                         <img src="img/portfolio/safe.png" class="img-responsive" alt="Safe">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
                         <img src="img/portfolio/submarine.png" class="img-responsive" alt="Submarine">
                     </a>
                 </div>
@@ -162,7 +172,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>About</h2>
+                    <h2>MY DREAM</h2>
                     <hr class="star-light">
                 </div>
             </div>
@@ -171,7 +181,7 @@
                     <p>안녕하십니까 한남대학교 컴퓨터 공학과 19학번 20190594 김태연 입니다. 제 꿈은 DBMS 관리자 또는 전산 직무입니다. 최근 캡스톤 디자인을 진행하면서 DB 설계와 구축에 관심이 생겼고 이를 진행하기 위해 다양한 공부를 해보면서 DB관리자의 꿈을 가지게 되었습니다.</p>
                 </div>
                 <div class="col-lg-4">
-                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                    <p>저는 고등학교 부터 대학교 까지 여러 프로젝트를 진행하였습니다. <br> 1.비인터넷 환경에서 구동하는 전자사전 <br>2.채팅앱 DIsCORD에서 </p>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <!-- <a href="#" class="btn btn-lg btn-outline">
@@ -190,7 +200,7 @@
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
-                        <h3>전화번호</h3>
+                        <h3>Phone Number</h3>
                         <p>010-9238-2839</p>
    
                     </div>
